@@ -9,13 +9,21 @@ projects[admin_menu][version] = "3.0-rc5"
 
 projects[ctools][version] = "1.9"
 
+projects[colorbox][version] = "2.9"
+
 projects[devel][version] = "1.5"
 
 projects[empty_front_page][version] = "1.0"
 
 projects[i18n][version] = "1.13"
 
+projects[jquery_update][version] = "3.0-alpha2"
+
 projects[l10n_update][version] = "2.0"
+
+projects[lang_dropdown][version] = "2.5"
+
+projects[languageicons][version] = "1.1"
 
 projects[libraries][version] = "2.2"
 
@@ -45,6 +53,13 @@ projects[dst][download][url] = ""
 projects[dst][type] = "theme"
 
 ; Libraries
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+libraries[ddslick][download][type] = ""
+libraries[ddslick][download][url] = ""
+libraries[ddslick][directory_name] = "ddslick"
+libraries[ddslick][type] = "library"
+
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
 libraries[phpsass][download][type] = ""
