@@ -17,9 +17,15 @@ projects[i18n][version] = "1.13"
 
 projects[l10n_update][version] = "2.0"
 
+projects[libraries][version] = "2.2"
+
 projects[module_filter][version] = "2.0"
 
 projects[pathauto][version] = "1.2"
+
+projects[prepro][version] = "1.4"
+
+projects[sassy][version] = "2.13"
 
 projects[token][version] = "1.6"
 
@@ -37,4 +43,12 @@ projects[webform][version] = "4.11"
 projects[dst][download][type] = ""
 projects[dst][download][url] = ""
 projects[dst][type] = "theme"
+
+; Libraries
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+libraries[phpsass][download][type] = ""
+libraries[phpsass][download][url] = ""
+libraries[phpsass][directory_name] = "phpsass"
+libraries[phpsass][type] = "library"
 
